@@ -34,7 +34,7 @@ public fw_CmdStart(id, pUC, seed)
 			if(!g_bUseScroll[id])
 			{
 				static Float:fGameTime; fGameTime = get_gametime()
-				if(fGameTime - g_fDuckTime[id] < 0.035) // 0.015, 0.02, 0.03
+				if(fGameTime - g_fDuckTime[id] < 0.02) // 0.015, 0.02, 0.03
 				{
 					static Float:fVelocity[3]
 					
