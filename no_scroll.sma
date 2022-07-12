@@ -3,9 +3,9 @@
 #include <amxmodx>
 #include <fakemeta>
 
-new bool:g_bUseScroll[MAX_PLAYERS]
+new bool:g_bUseScroll[MAX_PLAYERS + 1]
 
-new Float:g_fDuckTime[MAX_PLAYERS]
+new Float:g_fDuckTime[MAX_PLAYERS + 1]
 
 public plugin_init()
 {
